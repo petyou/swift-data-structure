@@ -12,20 +12,20 @@ import Foundation
 
 class LeetCode237 {
     static func test(){
-        let node3 =  Node.init(next: nil, value: 3)
-        let node2 =  Node.init(next: node3, value: 2)
-        let node1 =  Node.init(next: node2, value: 1)
-        let head =  Node.init(next: node1, value: 0)
+        let node3 =  ListNode.init(next: nil, val: 3)
+        let node2 =  ListNode.init(next: node3, val: 2)
+        let node1 =  ListNode.init(next: node2, val: 1)
+        let head =  ListNode.init(next: node1, val: 0)
         print(head)
-        deleteNode(node: node3)
+        deleteNode(node: head)
         print(head)
         
         
     }
     
-    static func deleteNode(node: Node<Int>){
+    static func deleteNode(node: ListNode){
         if let next = node.next {
-            node.value = next.value
+            node.val = next.val
             node.next = next.next
         } else {
             

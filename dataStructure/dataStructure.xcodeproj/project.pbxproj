@@ -11,6 +11,8 @@
 		C5A99EEB237A4F9F000B77D9 /* MyLinkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A99EEA237A4F9F000B77D9 /* MyLinkList.swift */; };
 		C5A99EED237A8C58000B77D9 /* 237删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A99EEC237A8C58000B77D9 /* 237删除链表中的节点.swift */; };
 		C5A99EEF237A8C6E000B77D9 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A99EEE237A8C6E000B77D9 /* Node.swift */; };
+		C5A99EF1237A914F000B77D9 /* 206.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A99EF0237A914F000B77D9 /* 206.反转链表.swift */; };
+		C5A99EF3237AAC13000B77D9 /* 141. 环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A99EF2237AAC13000B77D9 /* 141. 环形链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,8 @@
 		C5A99EEA237A4F9F000B77D9 /* MyLinkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLinkList.swift; sourceTree = "<group>"; };
 		C5A99EEC237A8C58000B77D9 /* 237删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237删除链表中的节点.swift"; sourceTree = "<group>"; };
 		C5A99EEE237A8C6E000B77D9 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		C5A99EF0237A914F000B77D9 /* 206.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206.反转链表.swift"; sourceTree = "<group>"; };
+		C5A99EF2237AAC13000B77D9 /* 141. 环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. 环形链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				C5A99EEC237A8C58000B77D9 /* 237删除链表中的节点.swift */,
+				C5A99EF0237A914F000B77D9 /* 206.反转链表.swift */,
+				C5A99EF2237AAC13000B77D9 /* 141. 环形链表.swift */,
 				C5A99EEE237A8C6E000B77D9 /* Node.swift */,
 			);
 			path = LeetCodes;
@@ -145,7 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5A99EDD2377D858000B77D9 /* main.swift in Sources */,
+				C5A99EF3237AAC13000B77D9 /* 141. 环形链表.swift in Sources */,
 				C5A99EEB237A4F9F000B77D9 /* MyLinkList.swift in Sources */,
+				C5A99EF1237A914F000B77D9 /* 206.反转链表.swift in Sources */,
 				C5A99EED237A8C58000B77D9 /* 237删除链表中的节点.swift in Sources */,
 				C5A99EEF237A8C6E000B77D9 /* Node.swift in Sources */,
 			);

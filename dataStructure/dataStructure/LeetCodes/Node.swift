@@ -8,29 +8,22 @@
 
 import Foundation
 
-class Node<Element> : Equatable, CustomStringConvertible where Element: Equatable {
+class ListNode: CustomStringConvertible {
     var description: String {
         var result = ""
-        var ipNode: Node? = self
+        var ipNode: ListNode? = self
         while ipNode != nil {
-            result.append("\(ipNode!.value)-")
+            result.append("\(ipNode!.val)-")
             ipNode = ipNode!.next
         }
         return result
     }
+
+    var next: ListNode?
+    var val: Int
     
-    static func == (lhs: Node<Element>, rhs: Node<Element>) -> Bool {
-        return lhs.value == rhs.value
-    }
-    
-    var next: Node?
-    var value: Element
-    
-    init(next: Node?, value: Element) {
+    init(next: ListNode?, val: Int) {
         self.next = next
-        self.value = value
+        self.val = val
     }
-    
-    
-   
 }
