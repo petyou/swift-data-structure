@@ -8,4 +8,4 @@
 
 import Foundation
 
-LeetCode141.test()
+LeetCode20.test()

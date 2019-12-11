@@ -9,6 +9,14 @@
 import Foundation
 
 class ListNode: CustomStringConvertible {
+    var next: ListNode?
+    var val: Int
+    
+    init(next: ListNode?, val: Int) {
+        self.next = next
+        self.val = val
+    }
+    
     var description: String {
         var result = ""
         var ipNode: ListNode? = self
@@ -17,13 +25,5 @@ class ListNode: CustomStringConvertible {
             ipNode = ipNode!.next
         }
         return result
-    }
-
-    var next: ListNode?
-    var val: Int
-    
-    init(next: ListNode?, val: Int) {
-        self.next = next
-        self.val = val
     }
 }
